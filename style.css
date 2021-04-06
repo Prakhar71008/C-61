@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    padding-top:800px;
+    text-align:center;
+}
+.profile{
+    width: 175px;
+    margin-bottom:150px;
+    border-radius:50%;
+}
+#welcome{
+    position:absolute;
+    overflow:hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    line-height:1.2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:300;
+}
+#name{
+    font-size: 30px;
+    line-height:1.2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:300;
+    font-family: 'Syne Mono', monospace;
+}
+#bio{
+    font-size: 42px;
+    padding:50px;
+    text-align:center;
+}
+.line{
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle; 
+}
+.menu{
+    list-style:none;
+    position:fixed;
+    top:0px;
+    z-index:1;
+    cursor:grab;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width:100%;
+    background:white;
+    margin-top:0px;
+    font-size:20px;
+}
+.link{
+    display:inline;
+    padding-right:30px;
+    padding-left:30px;
+}
+.link:hover{
+    background-color:#27ae60;
+    text-decoration:underline;
+    font-size:25px;
+}
+a{
+    text-decoration:none;
+    color:black;
+    text-shadow:2px 2px grey;
+}
+.article:hover{
+    color:aqua;
+}
+html{
+    scroll-behavior:smooth;
+}
+#writing a{
+    text-decoration:underline !important;
+    color:blue !important;
+    text-shadow:none !important;
+}
+#contact{
+    background:red;
+}
+#contact iframe{
+    width:100%;
+}
+#contactcol a{
+    color:cornsilk;
+    text-shadow:none;
+}
+#contactcol h2{
+    display:inline;
+}
+span{
+    color:white
+}
